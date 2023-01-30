@@ -42,11 +42,12 @@ body {
 }
 
 .plus {
-    margin: 26px auto;
+    margin: 26px 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .btn {
-    margin: 0px 5px;
     width: 45px;
     height: 45px;
     border: 2px solid #9AABD8;
@@ -55,4 +56,20 @@ body {
     color: #9AABD8;
     border-radius: 5px;
     font-family: timer;
+}
+
+.gameplay {
+    margin: 50px;
+    text-align: center;
+}
+
+#reset-btn {
+    font-size: 25px;
+    font-weight: 500;
+    border: 3px solid black;
+    padding: 20px;
+    background: #bf0603;
+    color: #edf2f4;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

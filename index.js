@@ -34,5 +34,21 @@ function plus_three_guest(){
     guestPtEl.textContent=guestPts
 }
 
+function showWinner(){
+    if (homePts>guestPts) {
+
+    } else {
+
+    }
+
+}
+
+function reset(){
+    homePts=0
+    guestPts=0
+    homePtEl.textContent=homePts
+    guestPtEl.textContent=guestPts
+}
+
 
 
