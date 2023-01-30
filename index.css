@@ -24,6 +24,8 @@ body {
 .team-name {
     color: #EEEEEE;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 2px black;
+    border-radius: 5px;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
